@@ -1,0 +1,18 @@
+npx create-react-app firstapp
+npm install -g create-react-app
+
+
+cd src
+npm i json
+npm i -g json-server
+
+npx json-server --watch data/database.json 1000
+
+npx json-server --watch data/database.json --port 1000
+
+
+this is for link->
+npm i react-router-dom
+
+
+https://github.com/subhash13/bookData/blob/main/data

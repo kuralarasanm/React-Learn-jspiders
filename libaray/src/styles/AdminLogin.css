@@ -1,0 +1,65 @@
+.adminlogin{
+    background-image: url('../images/phoenix-joker-4k-1i.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+    
+}
+
+.admindiv{
+    position: relative;
+    top: 100px;
+    left: 45%;
+    animation: admin 4s ease forwards;
+    animation-delay: 0s;
+    opacity: 0;
+}
+@keyframes admin{
+    0%{
+        transform: translateX(-800px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.admindiv h2{
+    margin-top: 15px;
+    color: red;
+}
+.admindiv input{
+    height: 37px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+}
+
+.admindiv button:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid whitesmoke;
+    transform: scale(1.4);
+    /* transform: scaleX(1.1); */
+    
+}
+.admindiv button{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(241, 10, 10, 0.477);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 1s;
+}
+.adminlogin input::placeholder{
+    color: cadetblue;
+}

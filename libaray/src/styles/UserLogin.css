@@ -1,0 +1,61 @@
+.userlogin{
+    background-image: url('../images/mr-bean-sitting-on-top-of-his-car-vector-art-1k.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.userlogindiv{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 150px;
+    left: 40%;
+    animation: user 4s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+@keyframes user{
+    0%{
+        transform: translateX(800px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.userlogindiv input{
+    height: 35px;
+    width: 200px;
+    background-color: transparent;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: rgb(166, 35, 35);
+}
+.userlogindiv h2{
+    padding-top: 10px;
+    color: rgb(185, 122, 41);
+}
+.userlogin button{
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    background-color: rgba(188, 143, 143, 0.603);
+    color: rgb(122, 31, 31);
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px solid salmon;
+    border-radius: 10px;
+    transition: 1s;
+}
+.userlogin button:hover{
+    cursor: pointer;
+    color: crimson;
+    border: 2px solid skyblue;
+    background: rgb(216, 94, 135);
+    transform: scale(1.4);
+}
+.userlogin input::placeholder{
+    color: rgb(9, 165, 105);
+}

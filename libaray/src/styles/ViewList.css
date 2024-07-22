@@ -1,0 +1,50 @@
+.viewitems{
+    display: flex;
+    margin-top: 10px;
+
+
+}
+.viewitems{
+    background-color: rgba(244, 148, 96, 0.348);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+.viewitems h1{
+    color: rgb(202, 219, 14);
+    /* position: relative;
+    left: 100px; */
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+.viewitems p{
+    color: rgb(30, 152, 107);
+    font-size: 20px;
+    margin-left: 20px;
+}
+.viewitems button{
+    color: red;
+    background-color: rgba(218, 27, 27, 0.511);
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 40%;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+}
+.viewitems button:hover{
+    color: aliceblue;
+    background-color: red;
+    transform: scale(0.9);
+}
+.bookimg img{
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+}

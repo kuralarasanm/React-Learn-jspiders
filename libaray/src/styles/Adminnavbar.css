@@ -1,0 +1,39 @@
+.adminlogo img{
+    height: 100px;
+    width: 100px;
+}
+.adminnavbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    border-bottom: 4px solid rgb(219, 150, 30);
+    /* box-shadow: 0px 20px rgba(0, 0, 0, 0.366); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(158, 35, 35, 0.773);
+}
+.navlinks a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50, 212, 18);
+    margin-left: 100px;
+    animation: nav 1.5s ease forwards;
+    animation-delay: 0.5s;
+    /* animation-delay: calc(.2s *var(--i)); */ 
+}
+@keyframes nav{
+    0%{
+        transform: translateX(3000px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.navlinks a:hover{
+    border-bottom: 3px solid beige;
+}

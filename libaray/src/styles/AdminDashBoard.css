@@ -1,0 +1,24 @@
+.admindashboard{
+    background-image: url('../images/books_library_shelves_138556_3840x2400.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.admindashboard h1{
+    color: rgb(204, 233, 40);
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 3em;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.866);
+}
+.admindashboard span{
+    color: rgb(168,211,170);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.866);
+    position: relative;
+    top: 30%;
+    left: 35%;
+    font-size: 3em;
+    font-weight: 700;
+}

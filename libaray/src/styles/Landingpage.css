@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.link a{
+    /* text-decoration: none; */
+    /* font-size: 50px; */
+    /* color: red; */
+    /* background-color: black; */
+    
+}
+.link1{
+    /* border: 2px solid white; */
+    border-radius: 100%;
+    
+}
+.link img{
+    border: 2px solid white;
+    border-radius: 40%;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    box-shadow: -10px 10px 10px 40px rgba(16, 18, 12, 0.592);
+}
+.link img:hover{
+    transform: scale(1.5);
+    box-shadow: -10px 10px 10px 40px rgba(124, 191, 10, 0.592);
+}
+.link2{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    margin-left: 100px;
+}
+/* ---------------------------------------------------------------------- */
+.landingpage{
+    background-image: url('../images/books_library_shelves_138556_3840x2400.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.landingpage h1{
+    background-color: rgba(192, 124, 34, 0.57);
+    text-align: center;
+    color: rgba(231, 20, 20, 0.871);
+    text-shadow: 5px 2px rgba(5, 7, 5, 0.599);
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+/* .adminlogin{
+    background-image: url('../images/phoenix-joker-4k-1i.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+    
+    
+}
+.admindiv{
+    position: relative;
+    top: 100px;
+    left: 45%;
+}
+.admindiv h2{
+    margin-top: 15px;
+    color: red;
+}
+.admindiv input{
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+}
+
+.admindiv button:hover{
+    cursor: pointer;
+    color: black;
+    transform: scale(1.4);
+    /* transform: scaleX(1.1); */
+    
+/* }
+.admindiv button{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(241, 10, 10, 0.477);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 1s;
+} */ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* .userlogin{
+    background-image: url('../images/mr-bean-sitting-on-top-of-his-car-vector-art-1k.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.userlogindiv{
+    /* border: 2px solid black; */
+    /* height: 250px;
+    width: 250px;
+    position: relative;
+    top: 150px;
+    left: 40%;
+}
+.userlogindiv input{
+    height: 30px;
+    width: 180px;
+    background-color: transparent;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: rgb(166, 35, 35);
+}
+.userlogindiv h2{
+    padding-top: 10px;
+    color: rgb(186, 133, 64);
+}
+.userlogin button{
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    background-color: rgba(188, 143, 143, 0.603);
+    color: rgb(122, 31, 31);
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px solid salmon;
+    border-radius: 10px;
+    transition: 1s;
+}
+.userlogin button:hover{
+    cursor: pointer;
+    color: crimson;
+    transform: scale(1.4);
+} */ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* .adminlogo img{
+    height: 100px;
+    width: 100px;
+}
+.adminnavbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    /* border-bottom: 4px solid rgb(219, 150, 30);
+    box-shadow: 0px 20px rgba(0, 0, 0, 0.366);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.282);
+}
+.navlinks a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: cadetblue;
+    margin-left: 100px;
+}
+.navlinks a:hover{
+    border-bottom: 3px solid beige;
+} */ */
+/* --------------------------------------------------------------------- */
+
+.admindashboard{
+    background-image: url('../images/books_library_shelves_138556_3840x2400.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
